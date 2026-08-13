@@ -1,0 +1,30 @@
+{
+  "_설명": "이 파일을 report_config.json 으로 복사한 뒤 실제 값으로 채우세요. (report_config.json 은 git에 올라가지 않습니다)",
+  "excel_filename": "장애데이터.xlsx",
+  "template_filename": "주간보고_템플릿.pptx",
+  "font_ea": "맑은 고딕",
+  "font_latin": "Arial Narrow",
+  "divisions_main": {
+    "사업부A": 4,
+    "사업부B": 22,
+    "사업부C": 40,
+    "사업부D": 58
+  },
+  "divisions_affiliate": {
+    "사업부B": 5,
+    "사업부A": 24,
+    "사업부C": 42,
+    "사업부D": 61
+  },
+  "monthly": {
+    "_설명": "월간보고(make_monthly_ppt) 전용 '요약' 시트 셀 매핑. 실제 사업부명/셀로 채우세요.",
+    "total_cells": {"narr": "C22", "avg": "C23", "delta": "C24"},
+    "affiliate_cells": {"narr": "C135", "avg": "C136", "delta": "C137"},
+    "division_cells": {
+      "사업부A": {"narr": "C69", "grade": "C70"},
+      "사업부C": {"narr": "C91", "grade": "C93"},
+      "사업부D": {"narr": "C113", "grade": "C115"},
+      "사업부B": {"narr": "C48", "grade": "C49"}
+    }
+  }
+}
